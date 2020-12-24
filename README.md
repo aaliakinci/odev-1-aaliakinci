@@ -1,23 +1,23 @@
 # Ödev 1
 
 ## Gereksinimler
-- [ ] [Sucrase](https://github.com/alangpierce/sucrase) compiler kurulumu yapılmalıdır. Kurulum için derste yaptığımız [şu](https://github.com/kodluyoruz-react-bootcamp/sources/tree/main/day2/4-es6-modules) örneğe göz atabilirsiniz.
+- [x] [Sucrase](https://github.com/alangpierce/sucrase) compiler kurulumu yapılmalıdır. Kurulum için derste yaptığımız [şu](https://github.com/kodluyoruz-react-bootcamp/sources/tree/main/day2/4-es6-modules) örneğe göz atabilirsiniz.
   
-- [ ] Kök dizinde **"src"** isminde bir dizin oluşturun ve içerisine **"app.js"** adında bir dosya oluşturun.
+- [x] Kök dizinde **"src"** isminde bir dizin oluşturun ve içerisine **"app.js"** adında bir dosya oluşturun.
   
-- [ ] **"src"** dizini altına **"lib"** adında başka bir dizin açın ve bu dizinde **"service.js"** adında bir dosya oluşturun.
-  - [ ] **"service.js"** dosyası içinde **"getData"** adında bir fonksiyon oluşturun.
-    - [ ] Bu fonksiyon **"async"** olarak tanımlanmalı ve default olarak dışa aktarılmalıdır. Fonksiyonun içindeki asenkron fonksiyonlar **"await"** ile tanımlanmalıdır.
-    - [ ] Fonksiyon **Number** tipinde tek parametre alır. Bu parametre **user id**'yi belirtir.
-    - [ ] Fonksiyonun görevi aşağıdaki endpoint'e giderek parametrede verilen user id ile ilgili kullanıcının verilerini çekmek olmalı. İstekleri **"axios"** kütüphanesini kullanarak yapmanız gerekiyor. İsteği yaparken aşağıdaki endpointin sonundaki rakamı parametrede gelen user id'ile değiştirmeniz gerekiyor.
+- [x] **"src"** dizini altına **"lib"** adında başka bir dizin açın ve bu dizinde **"service.js"** adında bir dosya oluşturun.
+  - [x] **"service.js"** dosyası içinde **"getData"** adında bir fonksiyon oluşturun.
+    - [x] Bu fonksiyon **"async"** olarak tanımlanmalı ve default olarak dışa aktarılmalıdır. Fonksiyonun içindeki asenkron fonksiyonlar **"await"** ile tanımlanmalıdır.
+    - [x] Fonksiyon **Number** tipinde tek parametre alır. Bu parametre **user id**'yi belirtir.
+    - [x] Fonksiyonun görevi aşağıdaki endpoint'e giderek parametrede verilen user id ile ilgili kullanıcının verilerini çekmek olmalı. İstekleri **"axios"** kütüphanesini kullanarak yapmanız gerekiyor. İsteği yaparken aşağıdaki endpointin sonundaki rakamı parametrede gelen user id'ile değiştirmeniz gerekiyor.
 
 		 [https://jsonplaceholder.typicode.com/users/1](	)
 
-	- [ ] Yine aynı fonksiyonun içerisinde ve yine aynı user id için bir de "posts" isteği yapılmalıdır.İsteği yaparken aşağıdaki endpoint'in sonundaki rakamı parametrede gelen user id'ile değiştirmeniz gerekiyor.
+	- [x] Yine aynı fonksiyonun içerisinde ve yine aynı user id için bir de "posts" isteği yapılmalıdır.İsteği yaparken aşağıdaki endpoint'in sonundaki rakamı parametrede gelen user id'ile değiştirmeniz gerekiyor.
 
 		[https://jsonplaceholder.typicode.com/posts?userId=1](https://jsonplaceholder.typicode.com/posts?userId=1)
 
-	- [ ] Artık elimizde kullanıcı bilgileri ve bu kullanıcının post'ları var. Bu iki veriyi birleştirip return edin. Birleştirme sonucunda elinizde aşağıdaki gibi bir obje bulunması gerekiyor.
+	- [x] Artık elimizde kullanıcı bilgileri ve bu kullanıcının post'ları var. Bu iki veriyi birleştirip return edin. Birleştirme sonucunda elinizde aşağıdaki gibi bir obje bulunması gerekiyor.
 
 		```
 		{
@@ -52,9 +52,9 @@
 		```
 
 
-- [ ] **"app.js"** dosyasına yazmış olduğunuz **"getData"** isimli fonksiyonu **"import"** edin.
-- [ ] Bir alt satırda bu fonksiyonu çalıştırın ve gelen sonucu log'layın.
-- [ ] Yazılan kodun build'ini alacak olan npm script'ini yazın. Build, kök dizinde **"dist"** dizinine alınmalıdır.
+- [x] **"app.js"** dosyasına yazmış olduğunuz **"getData"** isimli fonksiyonu **"import"** edin.
+- [x] Bir alt satırda bu fonksiyonu çalıştırın ve gelen sonucu log'layın.
+- [x] Yazılan kodun build'ini alacak olan npm script'ini yazın. Build, kök dizinde **"dist"** dizinine alınmalıdır.
 
 
 ----
